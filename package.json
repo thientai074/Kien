@@ -1,0 +1,76 @@
+{
+
+  "name": "gametet",
+
+  "version": "1.0.0",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "kiennt": "export NODE_ENV=kiennt&&ts-node-dev ./index.ts"
+
+  },
+
+  "author": "kiennt",
+
+  "license": "ISC",
+
+  "description": "",
+
+  "dependencies": {
+
+    "axios": "^1.2.1",
+
+    "cors": "^2.8.5",
+
+    "cron": "^2.1.0",
+
+    "crypto-js": "^4.1.1",
+
+    "dotenv": "^16.0.3",
+
+    "express": "^4.18.2",
+
+    "helmet": "^6.0.1",
+
+    "jsonwebtoken": "^9.0.0",
+
+    "mongoose": "^6.8.1",
+
+    "morgan": "^1.10.0",
+
+    "probability-pick": "^1.0.2",
+
+    "ts-node": "^10.9.1",
+
+    "ts-node-dev": "^2.0.0",
+
+    "typescript": "^4.9.4",
+
+    "typy": "^3.3.0",
+
+    "winston": "^3.8.2"
+
+  },
+
+  "devDependencies": {
+
+    "@types/cors": "^2.8.13",
+
+    "@types/crypto-js": "^4.1.1",
+
+    "@types/express": "^4.17.15",
+
+    "@types/jsonwebtoken": "^9.0.0",
+
+    "@types/morgan": "^1.9.3",
+
+    "@types/node": "^18.11.18"
+
+  }
+
+}
+
